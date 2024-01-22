@@ -45,7 +45,7 @@
     <header class="container mx-auto">
         <!-- nav section -->
         <section>
-        <nav>
+        <nav class="p-1">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -61,7 +61,7 @@
                         </ul>
                     </ul>
                   </div>
-                  <a class="relative text-xl lg:text-4xl font-extrabold">Hockey<span class="text-special-orange top-[-0.5em] relative inline-block w-1">,</span>s</a>
+                  <a class="relative text-xl lg:text-4xl font-extrabold">Hockey<span class="text-special-orange top-[-0.5em] relative inline-block w-1 lg:w-1.5">,</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
@@ -78,6 +78,39 @@
                 </div>
               </div>
         </nav>
+    </section>
+    <!-- banner section -->
+    <section class="p-2 lg:my-12">
+        <div class="carousel w-full">
+            <!-- first slide -->
+                <div id="slide1" class="carousel-item flex flex-col gap-4 lg:relative w-full">
+                    <div class="relative ">
+                        <img src="Images/1.png" alt="" class="w-full">
+                      <div class="absolute gap-2 lg:gap-4 flex lg:items-end lg:justify-normal justify-center transform -translate-y-1/2 left-5 right-5 bottom-1">
+                        <a href="#slide2" class="bg-black text-white text-center p-2 w-10 rounded-full">❮</a> 
+                        <a href="#slide2" class="bg-black text-white text-center p-2 w-10 rounded-full">❯</a>
+                      </div>
+                    </div>
+                        <div class="bg-black rounded-xl p-2 lg:p-8 border-black text-white lg:absolute lg:bottom-10 lg:right-10">
+                            <h2 class="font-bold text-xl lg:text-2xl mb-4">Meet all the heroes from the field</h2>
+                            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                        </div>
+                </div> 
+            <!-- second slide -->
+                <div id="slide2" class="carousel-item flex flex-col gap-4 lg:relative w-full">
+                    <div class="relative ">
+                        <img src="Images/1.png" alt="" class="w-full">
+                      <div class="absolute gap-2 lg:gap-4 flex lg:items-end lg:justify-normal justify-center transform -translate-y-1/2 left-5 right-5 bottom-1">
+                        <a href="#slide1" class="bg-black text-white text-center p-2 w-10 rounded-full">❮</a> 
+                        <a href="#slide1" class="bg-black text-white text-center p-2 w-10 rounded-full">❯</a>
+                      </div>
+                    </div>
+                        <div class="bg-black rounded-xl p-2 lg:p-8 border-black text-white lg:absolute lg:bottom-10 lg:right-10">
+                            <h2 class="font-bold text-xl lg:text-xl mb-4">Meet all the heroes from the field</h2>
+                            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                        </div>
+                </div> 
+          </div>
     </section>
     </header>
     <main></main>
